@@ -1,3 +1,10 @@
-html{
-    background:black;
+.container{
+    display: flex;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+#logo{
+    width: 600px;
+    height:295px;
 }
