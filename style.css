@@ -1,5 +1,6 @@
 body{
     margin: 0 auto;
+    font-family:'Nunito', sans-serif;
 }
 
 .container{
@@ -8,23 +9,25 @@ body{
     text-align: center;
     justify-content: center;
 }
+
 #logo{
     width: 325px;
     height: 105px;
-    margin: 200px 0px 30px 0px;
+    margin: 150px 0px 20px 0px;
 }
 
 #input{
     width: 525px;
     height:35px;
     border-radius: 18px;
-    border: solid rgb(0, 0, 0, .3) .5px;
+    border: solid rgb(0, 0, 0, .1) .5px;
+    padding-left:10px;
 }
 
 #input:focus{
     outline: none;
-    border-color: #c0c3c5;
-    box-shadow: 0 0 5px #c0c3c5;
+    border-color: #dfdddd;
+    box-shadow: 0 0 5px #dfdddd;
 }
 
 ul.nav-list{
@@ -32,12 +35,13 @@ ul.nav-list{
     list-style:none;
     padding:0;
     position:relative;
-    width:100%; /* FOR a static width like Posh CSS */
-    margin:0 auto;
+    width:100%;
+    line-height:30px;
+    font-size: 14px;
 }
 
 li {
-    margin:0 10px; /* Gap between LI elements 20px */
+    margin:0 15px;
    }
 
 li.left {
@@ -56,23 +60,46 @@ a {
 a:hover{
     text-decoration: underline;
 }
+
 a:focus{
     text-decoration: underline;
 }
 
-button {
-    border:none;
-    border-radius:5px;
-    background: #e5e9eb;
-    height: 35px;
+.head-img{
+    height:30px;
+    width:30px;
 }
+
+#avatar{
+    border-radius:100%;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    background: #f2f2f2;
+    height: 35px;
+    width:125px;
+    margin: 35px 0px 0px 0px;
+}
+
+button:focus {
+    outline: none;
+}
+
 .footer{
-    line-height:40px;
     width: 100%;
     position: absolute;
     bottom:0px;
 }
+
 #footer{
-    background: #e1e3e4;
-    border-top: 1px solid #cecece;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    margin:0 auto;
+    line-height:40px !important;
+}
+
+#footer li{
+    margin:0px 15px 0px 15px;
 }
