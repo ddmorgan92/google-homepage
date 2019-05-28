@@ -6,5 +6,18 @@
 }
 #logo{
     width: 600px;
-    height:295px;
+    height: 295px;
+}
+
+#input{
+    width: 525px;
+    height:35px;
+    border-radius: 18px;
+    border: solid rgb(0, 0, 0, .3) .5px;
+}
+
+#input:focus{
+    outline: none;
+    border-color: #c0c3c5;
+    box-shadow: 0 0 10px #c0c3c5;
 }
